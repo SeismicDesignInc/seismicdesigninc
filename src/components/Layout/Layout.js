@@ -10,10 +10,22 @@ const Layout = ({
   preloader,
   mainClass,
   preloaderClass,
+  fromSlug
 }) => {
   const [loading, setLoading] = useState(true);
   const { scrollTop } = useScroll(100);
   const defaultTitle = 'Seismic Design';
+
+  let title = pageTitle;
+
+  if (fromSlug) {
+    title = pageTitle;
+  } else if (pageTitle) {
+    title = defaultTitle + ' | ' + pageTitle;
+  }
+  else {
+    title = defaultTitle
+  }
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setLoading(false);
@@ -26,8 +38,8 @@ const Layout = ({
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{pageTitle ? `Seismic Design | ${pageTitle}` : defaultTitle}</title>
-        <meta property="og:title" content={pageTitle ? `Seismic Design | ${pageTitle}` : defaultTitle} />
+        <title>{title}</title>
+        <meta property="og:title" content={title} />
         <meta property="og:description" content="Marketing so good, it shakes the earth." />
         <meta property="og:image" content={OGMeta.src} />
       </Head>

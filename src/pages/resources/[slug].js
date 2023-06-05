@@ -48,7 +48,7 @@ const BlogPostPage = () => {
   }
 
   return (
-    <Layout pageTitle="Resources">
+    <Layout pageTitle={post.title} fromSlug={true}>
       <Style />
       <HeaderOne />
       <MobileMenu />
