@@ -68,7 +68,7 @@ export const mainFooter = {
     },
     {
       id: 5,
-      title: 'blogs',
+      title: 'Blogs',
       href: 'blogs',
     },
     {
