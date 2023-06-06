@@ -59,18 +59,22 @@ const GetQuoteTwo = ({ className = '' }) => {
               <div className='info'>
                 <ul>
                   <li>
-                    <span className='icon fab fa-facebook'></span>
-                    <strong>Facebook</strong>
-                    <Link href={facebook}>
-                      <a href={facebook}>{facebook}</a>
+                    <span className='icon fab fa-facebook d-inline-block align-middle'></span>
+                    <Link href={facebook} >
+                      <a href={facebook} className="d-inline-block align-middle">
+                        <strong>Facebook</strong>
+                      </a>
                     </Link>
+
                   </li>
                   <li>
-                    <span className='icon fab fa-instagram'></span>
-                    <strong>Instagram</strong>
-                    <Link href={instagram}>
-                      <a href={instagram}>{instagram}</a>
+                    <span className='icon fab fa-instagram d-inline-block align-middle'></span>
+                    <Link href={instagram} >
+                      <a href={instagram} className="d-inline-block align-middle">
+                        <strong>Instagram</strong>
+                      </a>
                     </Link>
+
                   </li>
                 </ul>
               </div>

@@ -64,8 +64,8 @@ const ServiceNine = () => {
                   {title === 'Custom Websites' && (
                     <>
                       {" "}
-                      <Link href="/resources/seismic-design-inc-about-our-amazing-websites">
-                        <a href="/resources/seismic-design-inc-about-our-amazing-websites">Learn more</a>
+                      <Link href="/blogs/seismic-design-inc-about-our-amazing-websites">
+                        <a href="/blogs/seismic-design-inc-about-our-amazing-websites">Learn more</a>
                       </Link>
                     </>
                   )}
@@ -78,8 +78,8 @@ const ServiceNine = () => {
                       development, back-end development, database design and
                       optimization, Payment gateway and API integration.
                       {" "}
-                      <Link href="/resources/seismic-design-the-power-of-full-stack-web-design-coding-unleashing-the-benefits">
-                        <a href="/resources/seismic-design-the-power-of-full-stack-web-design-coding-unleashing-the-benefits">Learn more</a>
+                      <Link href="/blogs/seismic-design-the-power-of-full-stack-web-design-coding-unleashing-the-benefits">
+                        <a href="/blogs/seismic-design-the-power-of-full-stack-web-design-coding-unleashing-the-benefits">Learn more</a>
                       </Link>
                     </li>
                     <li>
@@ -89,8 +89,8 @@ const ServiceNine = () => {
                       customization, website migration, website maintenance and
                       support, and more.
                       {" "}
-                      <Link href="/resources/transform-your-business-with-a-stunning-custom-website-today">
-                        <a href="/resources/transform-your-business-with-a-stunning-custom-website-today">Learn more</a>
+                      <Link href="/blogs/transform-your-business-with-a-stunning-custom-website-today">
+                        <a href="/blogs/transform-your-business-with-a-stunning-custom-website-today">Learn more</a>
                       </Link>
                     </li>
                   </ul>
@@ -117,8 +117,8 @@ const ServiceNine = () => {
                       their online visibility and ranking on search engines such
                       as Google, Bing, and Yahoo.
                       {" "}
-                      <Link href="/resources/seismic-design-seo-services-amplify-your-digital-presence">
-                        <a href="/resources/seismic-design-seo-services-amplify-your-digital-presence">Learn more</a>
+                      <Link href="/blogs/seismic-design-seo-services-amplify-your-digital-presence">
+                        <a href="/blogs/seismic-design-seo-services-amplify-your-digital-presence">Learn more</a>
                       </Link>
                     </li>
                     <li>

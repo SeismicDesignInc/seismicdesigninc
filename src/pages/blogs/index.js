@@ -9,12 +9,12 @@ import BlogLists from "@/components/BlogSection/BlogLists";
 import { BlogData } from "@/data/blogSection"
 export default function Blog2() {
   return (
-    <Layout pageTitle="Resources">
+    <Layout pageTitle="Blogs">
       <Style />
       <HeaderOne />
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="Resources" />
+      <PageBanner title="Blogs" />
       <BlogLists data={BlogData} />
       <MainFooter />
     </Layout>

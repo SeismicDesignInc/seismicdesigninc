@@ -22,10 +22,10 @@ const navItemsTwo = [
   },
   {
     id: 4,
-    name: 'Resources',
-    href: 'resources',
+    name: 'blogs',
+    href: 'blogs',
   },
-  
+
   {
     id: 5,
     name: 'Team',
@@ -67,20 +67,22 @@ const navItems = [
     href: 'team',
   },
   {
-    id: 5,
-    name: 'Resources',
-    href: 'resources',
-  },
-  {
     id: 6,
     name: 'Our Work',
     href: 'our-work',
   },
+
   {
     id: 7,
     name: 'About',
     href: 'about',
   },
+  {
+    id: 5,
+    name: 'Blogs',
+    href: 'blogs',
+  },
+
 ];
 
 export const socials = [

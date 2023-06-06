@@ -21,8 +21,8 @@ export default function BlogLists({ data }) {
       <article className="position-relative" style={{
         width: "auto", height: 300
       }}>
-        <Link href={"/resources/" + data.slug}>
-          <a href={"/resources/" + data.slug}>
+        <Link href={"/blogs/" + data.slug}>
+          <a href={"/blogs/" + data.slug}>
             <img src={"/blogs/" + data.image} alt={data.title} className="rounded h-100 w-100 img-fluid" style={{ objectFit: "cover" }} />
             <h5 className="text-center pt-3">{data.title}</h5>
           </a>

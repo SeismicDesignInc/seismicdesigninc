@@ -25,7 +25,7 @@ const HeaderOne = ({
   let Logo;
   let logo1 = Black;
   let logo2 = White;
-  let exempted = ['services', 'works', 'team', 'resources', 'about'];
+  let exempted = ['services', 'works', 'team', 'blogs', 'about'];
 
   // check the name of the page
   const router = useRouter();

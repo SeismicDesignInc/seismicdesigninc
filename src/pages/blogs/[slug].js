@@ -27,18 +27,18 @@ const BlogPostPage = () => {
 
   if (!post) {
     return (
-      <Layout pageTitle="Resources">
+      <Layout pageTitle="blogs">
         <Style />
         <HeaderOne />
         <MobileMenu />
         <SearchPopup />
-        <PageBanner title="Resources" breadcrumbs="" />
+        <PageBanner title="blogs" breadcrumbs="" />
         <div className="container my-5 text-center">
-          <h2>Sorry, We Can't Find That Resources!</h2>
-          <Link href="/resources">
+          <h2>Sorry, We Can't Find That blogs!</h2>
+          <Link href="/blogs">
             <a className="theme-btn btn-style-one">
               <i className="btn-curve"></i>
-              <span className="btn-title">Back to Resources</span>
+              <span className="btn-title">Back to blogs</span>
             </a>
           </Link>
         </div>

@@ -15,7 +15,7 @@ const corevalue = () => {
       <HeaderOne />
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="Resources" />
+      <PageBanner title="blogs" />
       <GallerySectionOne />
       <MainFooter />
     </Layout>
